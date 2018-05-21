@@ -13,7 +13,7 @@
 
 > git clone https://github.com/fachryansyah/wizard-stepper-css.git
 
-##Usage
+## Usage
 ```
       <ul class="wiz-progressbar" style="margin-bottom:40px">
         <li id="progress-1" class="check size-4 active"></li>
