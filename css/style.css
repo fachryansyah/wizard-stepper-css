@@ -1,0 +1,114 @@
+/*============================
+Created by @fahriansyah
+
+facebook: fachry.ansyah.10
+instagram: fachry.stark
+website: ngodingers.com
+                    fachry.zeblogic.com
+=============================
+*/
+
+.bg-gradient{
+background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.align-center{
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-family: arial;
+    font-weight: normal;
+}
+
+
+    /* ===[wizard]== */
+.wiz-progressbar{
+  counter-reset: step;
+}
+.wiz-progressbar li{
+  list-style-type: none;
+  float: left;
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+}
+
+.wiz-progressbar li.size-4{
+  list-style-type: none;
+  float: left;
+  width: 25%;
+  position: relative;
+  text-align: center;
+}
+
+.wiz-progressbar li.check:before{
+  /* ganti ini jadi gambar */
+  content: url('../img/icons/Progress-bar-checked.png');
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding-top: 5px;
+  /* border: 1px solid #ddd; */
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  /* background-color: #fff; */
+}
+.wiz-progressbar li.fill:before{
+  /* ganti ini jadi gambar */
+  content: url('../img/icons/Progress-bar-filled.png');
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  /* border: 1px solid #ddd; */
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  /* background-color: #fff; */
+}
+.wiz-progressbar li.nofill:before{
+  /* ganti ini jadi gambar */
+  content: url('../img/icons/Progress-bar-non-filled.png');
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  line-height: 30px;
+  /* border: 1px solid #ddd; */
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  /* background-color: #fff; */
+}
+.wiz-progressbar li:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #DADADA;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+.wiz-progressbar li:first-child:after{
+  content: none;
+}
+.wiz-progressbar li.active {
+  color: #205795;
+}
+.wiz-progressbar li.active:before{
+  border-color: #205795;
+}
+.wiz-progressbar li.active  + li:after{
+  background-color: #205795;
+}
+/* ====[end wizard]=== */
