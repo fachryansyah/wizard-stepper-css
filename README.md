@@ -1,7 +1,8 @@
 # Wizard Stepper css
 
 ##Demo
-![alt text](https://cdn.pbrd.co/images/HmdcpUA.png)
+
+![alt text](https://cdn.pbrd.co/images/HmdeLO6.png)
 
 ## Introduction
 
